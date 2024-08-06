@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "simple-markers-map/simple-markers-map",
+  "version": "1.1.0",
+  "title": "Simple markers map",
+  "category": "embed",
+  "icon": "location-alt",
+  "description": "The block helps you simply create a map with markers",
+  "attributes": {
+    "markers": {
+      "type": "array",
+      "default": [
+        {
+          "id": 1,
+          "position": [
+            50.4500336,
+            30.5241361
+          ],
+          "title": "Kyiv",
+          "description": "The Capital of Ukraine"
+        }
+      ]
+    },
+    "layer": {
+      "type": "string",
+      "default": "google"
+    },
+    "zoom": {
+      "type": "number",
+      "default": 7
+    },
+    "height": {
+      "type": "number",
+      "default": 400
+    },
+    "markersColor": {
+      "type": "string",
+      "default": "#e20432"
+    }
+  },
+  "supports": {
+    "multiple": false,
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "alignWide": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./script.css",
+  "script": "file:./script.js",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
