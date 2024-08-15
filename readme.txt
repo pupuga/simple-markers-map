@@ -1,4 +1,4 @@
-﻿=== Simple Markers Map ===
+﻿=== Simple Markers Map - Gutenberg Block Map with markers ===
 Contributors:      mvshandor
 Donate link:       https://pupuga.net/
 Requires at least: 6.6.1
@@ -7,7 +7,7 @@ Requires PHP:      8.0
 Stable tag:        1.1.0
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
-Tags:              map gutenberg block, google map block, map block, gutenberg block, simple markers map,
+Tags:              map gutenberg, google map block, map block, gutenberg block, markers map
 
 The plugin enables you to easily add customizable maps to your posts and pages using the Gutenberg editor. No API key is required.
 
